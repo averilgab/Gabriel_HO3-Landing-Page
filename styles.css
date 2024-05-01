@@ -1,0 +1,92 @@
+@import url('https://fonts.googleapis.com/css?family=Big+Shoulders+Text:100,300,400,500,600,700,800,900&display=swap');
+
+
+.nav-flex-row {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    position: absolute;
+    z-index: 100;
+    left: 0;
+    width: 80%;
+    padding: 10px 20px; 
+}
+
+.nav-item {
+    list-style: none;
+    margin-right: 20px; 
+}
+
+.logo img {
+    width: 2cm; 
+    height: 2cm; 
+    margin-right: 20px; 
+}
+
+.nav-item a {
+    text-decoration: none;
+    color: #f5f3f3; 
+    font-weight: bold; 
+    font-size: 18px;
+}
+
+.nav-item a:hover {
+    color: #070707; 
+}
+.section-intro {
+    height: 820px;
+    background-image: url(iMAGES/PASTRY\ FRONT.jpg);
+    background-size: cover;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.section-intro h1 {
+    text-align: center;
+    color: #ffffff;
+    font-size: 4em;
+    font-weight: 700;
+}
+
+
+.about-section {
+    display: flex;
+    align-items: center;
+    background-color: #f3f3f3c0;
+    padding: 50px 30px;
+}
+
+.link-to-book {
+    color: #ffffff;
+    display: block;
+    border: 2px solid #ffffff;
+    padding: 5px 10px;
+}
+
+a.link-to-book:hover {
+    background-color: #ffffff;
+    color: #95999e;
+    text-decoration: none;
+}
+
+.about-section p,
+.about-section h3 {
+    text-align: center;
+    width: 60%;
+    margin: auto;
+    font-family: 'Playfair Display', cursive;
+    font-size: 1.8em;
+    text-transform: uppercase;
+}
+
+
+.carousel-inner {
+    height: 500px;
+}
+
+@media (min-width:500px) and (max-width: 700px) {
+
+}
